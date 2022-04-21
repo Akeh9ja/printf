@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+ /**
  * convert - converts number and base into strings
  * @num: number input
  * @base: input base
