@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+ /**
  * print_int - prints an integer
  * @l: va_list of arguments from _printf
  * @f: pointer to the struct flags determining
@@ -23,7 +23,7 @@ int print_int(va_list l, flags_t *f)
 	return (res);
 }
 
-/**
+ /**
  * print_unsigned - prints an unsigned integer
  * @l: va_list of arguments from _printf
  * @f: pointer to the struct flags determining
@@ -40,7 +40,7 @@ int print_unsigned(va_list l, flags_t *f)
 	return (_puts(str));
 }
 
-/**
+ /**
  * print_number - helper function that loops through
  * an integer and prints all its digits
  * @n: integer to be printed
@@ -62,7 +62,7 @@ void print_number(int n)
 	_putchar((n1 % 10) + '0');
 }
 
-/**
+ /**
  * count_digit - returns the number of digits in an integer
  * for _printf
  * @i: integer to evaluate
